@@ -95,6 +95,12 @@ To set up and run the Tastebud AI project locally, follow these steps:
     source env/bin/activate
     python manage.py runserver
 
+## Developed By
+This section acknowledges the individuals or teams responsible for creating and developing the project.
+- [@Anshik-02](https://github.com/Anshik-02)
+- [@unavailable-code](https://github.com/unavailable-code)
+- [@ihimanshsharma](https://github.com/ihimanshsharma)
+
 ## Contributing
 Contributions are welcome! If you'd like to contribute, please fork the repository, make your changes, and submit a pull request. Follow the standard GitHub flow:
    - Fork the project.
