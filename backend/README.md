@@ -1,4 +1,4 @@
-# Tastebud AI
+##Tastebud.Ai
 
 Tastebud AI is an intelligent, ingredient-based recipe generator designed to offer users personalized meal suggestions based on their available ingredients, dietary preferences, and culinary goals. This web application enhances the cooking experience with tailored recipe recommendations, step-by-step guides, and shopping list integrations.
 
@@ -111,4 +111,3 @@ Contributions are welcome! If you'd like to contribute, please fork the reposito
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
-
