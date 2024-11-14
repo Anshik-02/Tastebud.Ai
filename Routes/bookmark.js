@@ -41,8 +41,7 @@ bookmarkRouter.get("/bookmark", userMiddleware, async function (req, res) {
     }
     
         // Check if savedRecipies is undefined or null
-    const savedRecipies = user.savedRecipies || []; // Initialize to empty array if undefined
-        // If savedRecipies is empty, return an empty array
+    const savedRecipies = user.savedRecipies || [];
     if (savedRecipies.length === 0) {
         return res.json({
             success: true,
@@ -64,7 +63,7 @@ bookmarkRouter.get("/bookmark", userMiddleware, async function (req, res) {
     });
     
     bookmarkRouter.delete("/bookmark",userMiddleware ,async function(req ,res){
-        const userId = req.userId; // Assume `userId` is set by userMiddleware
+        const userId = req.userId; 
         const { recipieId } = req.body;
     
         try {
